@@ -190,7 +190,17 @@
   padding: 50px;
   text-align: center;
 }
-
+.latest-info-blinking-text{
+    animation:blinkingText 0.6s infinite;
+    font-size: 20px;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(255, 0, 0);    }
+    49%{    color: rgb(161, 49, 49); }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
 </style>
 
 <script>
@@ -235,7 +245,11 @@ function getpassnow() {
     
         <section id="get-passvault-now"><h2><button id="button2" class="button button2" type="submit" onclick="getpassnow()">Get Pass Vault Now</button></h2><h2><button id="button3" class="button button3" type="submit" onclick="getpassnow()">Give Feedback Now</button></h2>
 
-        </section><br><br>
+        </section><br><br><br><br>
+        <section id="latest-info">
+            <font face="Segoe UI" size="22px"><b>Latest Info</b></font>
+            <h1 class="latest-info-blinking-text">NEW</h1><h3> Pass Vault 21H2 Developer Preview version is out now.</h3>
+        </section><br><br><br>
         <section id="about-us"><p><h2>About Us</h2></p>
             <font face="Segoe UI" size="5px">The Science of Today is the Technology of Tomorrow!</font>
                 <p><a href="https://archi221aritra221.github.io/BlastexWeb/site_update_v2021.2.0.abcdenf4a1/about&contacts.html" class="footer_mail"><b>Blasteoroid Corporation</b></a> is owned by two students, more correctly two engineering aspirants. Blasteoroid has aimed to provide many projects open to public for the technical implementation of them in higher organisation. Blasteoroid has also aimed for public learning or student learning through their main website. Blasteoroid provides content that can be used by researchers to improve technology and also provides new aspects of learning and implementation. Open Source means not open to public but to help public to learn, use and create something new of their own and to get their ideas to improve a company's products for public use worldwide.
