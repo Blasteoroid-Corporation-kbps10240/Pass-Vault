@@ -42,6 +42,7 @@
         /*background-color: rgb(255, 255, 255);*/
         /*background-color: rgb(51, 51, 51);*/
         background-color: rgb(27, 95, 168);
+        /*background-color: rgb(15, 17, 26);*/
         color: rgb(97,97,97);
 
     }
@@ -227,6 +228,12 @@ function topFunction() {
 function getpassnow() {
     location.href = 'downloads.html';
 }
+
+function openInNewTab(url) {
+ window.open(url, '_blank').focus();
+}
+
+
 </script>
 
 <script src="assets/script/jquery.js"></script>
@@ -250,7 +257,7 @@ function getpassnow() {
 
     <div class="aio"><div class="container">
     
-        <section id="get-passvault-now"><h2><button id="button2" class="button button2" type="submit" onclick="getpassnow()">Get Pass Vault Now</button></h2><h2><button id="button3" class="button button3" type="submit" onclick="getpassnow()">Give Feedback Now</button></h2>
+        <section id="get-passvault-now"><h2><button id="button2" class="button button2" type="submit" onclick="getpassnow()">Get Pass Vault Now</button></h2><h2><button id="button3" class="button button3" type="submit" onclick="openInNewTab('secondary/feedback-form/feedback-form-basic-ussr1.html')">Give Feedback Now</button></h2>
 
         </section><br><br><br><br>
         <section id="latest-info">
