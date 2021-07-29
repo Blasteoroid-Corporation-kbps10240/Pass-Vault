@@ -151,6 +151,13 @@
     left: 420px;
     position: absolute;
 }
+.button4{
+    background-color: rgb(27, 95, 168);
+    font-size: 22px;
+    border-radius: 0px;
+    left: 758px;
+    position: absolute;
+}
 
 .footer_copyright_tag{
     color: rgb(27, 95, 168);;
@@ -215,7 +222,9 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
+function openInNewTab(url) {
+ window.open(url, '_blank').focus();
+}
 </script>
 
 <script src="assets/script/jquery.js"></script>
@@ -240,7 +249,7 @@ function topFunction() {
     <div class="aio"><div class="container">
 
         <section id="regular-downloads"> 
-            <button id="button2" class="button button2" type="submit" onclick="topFunction()"><b>Download Stable Version</b></button><button id="button3" class="button button3" type="submit" onclick="topFunction()"><b>Download Latest Version</b></button>
+            <button id="button2" class="button button2" type="submit" onclick="topFunction()"><b>Download Stable Version</b></button><button id="button3" class="button button3" type="submit" onclick="topFunction()"><b>Download Latest Version</b></button><button id="button4" class="button button4" type="submit" onclick="openInNewTab('secondary/feedback-form/feedback-form-basic-ussr1.html')"><b>Give Feedback Now</b></button>
 
         </section><br><br>
         <section id="dev-downloads"><p><h2>Developer Versions</h2></p>
