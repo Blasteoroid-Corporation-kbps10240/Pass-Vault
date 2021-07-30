@@ -233,6 +233,13 @@ function openInNewTab(url) {
  window.open(url, '_blank').focus();
 }
 
+function preload() {
+    document.querySelector('header').addEventListener('click', function() {
+    context.resume().then(() => {
+      console.log('Playback resumed successfully');
+    });
+  });
+}
 
 </script>
 
@@ -242,9 +249,28 @@ function openInNewTab(url) {
 <script src="assets/js/touch-swipe.js"></script>
 <script src="assets/js/theme.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+
 <script src="assets/js/howler-plays.js"></script>
+<script>
+    /*soundManager.onready(function() {
+    soundManager.createSound({
+            id: 'mySound',
+            url: '../assets/audio/MenuMusic01.mp3'
+        });
+        <script src="assets/js/soundmanager2.js">
+        // ...and play it
+        soundManager.play('mySound');
+});*/
+
+</script>
+
+
 
 <body>
+    <audio autoplay loop canplay controls>
+        <source src="assets/audio/MenuMusic01.mp3" type="audio/mp3">
+
+    </audio>
     <section id="start"><header class="header"><h1 style="color: rgb(255, 255, 255);">Pass Vault from Blasteoroid Corporation</h1></header></section><br>
 
     <section id="tablink_buttons">
@@ -298,6 +324,7 @@ function openInNewTab(url) {
                     </p>
                     <p  class="footer_copyright_tag">© Copyright 2021 <b><a href="https://archi221aritra221.github.io/BlastexWeb/site_update_v2021.2.0.abcdenf4a1/about&contacts.html" class="footer_mail">Blasteoroid Corporation.</a></b> All Rights Reserved.</p>
     </footer>
-
 </body>
+
+
 </html>
