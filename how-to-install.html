@@ -201,6 +201,29 @@
     99%{    color:transparent;  }
     100%{   color: #000;    }
 }
+.visit-counter{
+    background-color: azure;
+    position: absolute;
+    left: 40px;  
+    bottom: 18px;  
+    /*border-style:solid;
+    border-radius: 6px;
+    border-color: orange;*/
+    text-decoration: #000;
+    text-align:center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:midnightblue
+    /*bottom:10px;*/
+}
+.visitcounter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: firebrick;
+
+    /*Used HITS*/
+    /*URL: https://github.com/mlomb/countapi-js*/
+}
 </style>
 
 <script>
@@ -238,8 +261,14 @@ function openInNewTab(url) {
 <script src="assets/js/touch-swipe.js"></script>
 <script src="assets/js/theme.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+<script src="assets/js/visit-count-api.js"></script>
 
-
+<script>
+    function cb(response) {
+    document.getElementById('visit-countjs').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/blasteoroid-corporation.github.io/Pass-Vault/visits?callback=cb"></script>
 
 
 <body>
@@ -307,6 +336,7 @@ function openInNewTab(url) {
                     NA; +1 111-111-1111
         
                     </p>
+                    <p class="visit-counter"><a class="visitcounter"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fblasteoroid-corporation-kbps10240.github.io%2FPass-Vault&count_bg=%234CA409&title_bg=%232D2D2D&icon=adguard.svg&icon_color=%23E7E7E7&title=Total+Visitors%3A&edge_flat=false"/> </a></p>
                     <p  class="footer_copyright_tag">© Copyright 2021 <b><a href="https://archi221aritra221.github.io/BlastexWeb/site_update_v2021.2.0.abcdenf4a1/about&contacts.html" class="footer_mail">Blasteoroid Corporation.</a></b> All Rights Reserved.</p>
     </footer>
 
