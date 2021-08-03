@@ -255,7 +255,8 @@ function openInNewTab(url) {
  window.open(url, '_blank').focus();
 }
 function reload_downlaod_counter(){
-    document.getElementById("total-dndls-count").src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fblasteoroid-corporation-kbps10240.github.io%2FPass-Vault%2Ftotal-downloads-record&count_bg=%2379C83D&title_bg=%23555555&icon=verizon.svg&icon_color=%23E7E7E7&title=Total+Downloads%3A&edge_flat=false";
+    timestamp = new Date().getTime(); 
+    document.getElementById("total-dndls-count").src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fblasteoroid-corporation-kbps10240.github.io%2FPass-Vault%2Ftotal-downloads-record&count_bg=%2379C83D&title_bg=%23555555&icon=verizon.svg&icon_color=%23E7E7E7&title=Total+Downloads%3A&edge_flat=false"+timestamp;
 }
 </script>
 
@@ -266,7 +267,7 @@ function reload_downlaod_counter(){
 <script src="assets/js/theme.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
 <script src="assets/js/visit-count-api.js"></script>
-<script src="assets/js/total-downloads-count.js"></script>
+<script type="text/javascript" src="assets/js/total-downloads-count.js"></script>
 
 <script>
     function cb(response) {
@@ -301,7 +302,7 @@ function reload_downlaod_counter(){
         </section><br><br>
         <section id="dev-downloads"><p><h2>Developer Versions</h2></p>
             <ol  class="ul-list-with-cols">
-                <li>21DEV2 Built 20210615:  <a href="https://cloud.degoo.com/share/-JBfjejH-k0wVcrgokOX9Q" class="footer_mail" onclick="reload_downlaod_counter();" target="_blank" rel="noopener noreferrer"><b>DEV Release</b></a>  |  <a href="https://cloud.degoo.com/share/snYpqTQszva8b8xh2_uhLw" class="footer_mail" onclick="window.open('https://cloud.degoo.com/share/snYpqTQszva8b8xh2_uhLw', '_blank').focus(); reload_downlaod_counter();" target="_blank" rel="noopener noreferrer"><b>DEV Live</b></a>  |  <a href="release-notes/Pass Vault 21H2.html" class="footer_mail" target="_blank" rel="noopener noreferrer">Release Notes</a>  |  <a href="how-to-install.html" class="footer_mail" target="_blank" rel="noopener noreferrer">How to install ?</a></li>
+                <li>21DEV2 Built 20210615:  <a href="https://cloud.degoo.com/share/-JBfjejH-k0wVcrgokOX9Q" class="footer_mail" onclick="reload_downlaod_counter();" target="_blank" rel="noopener noreferrer"><b>DEV Release</b></a>  |  <a href="https://cloud.degoo.com/share/snYpqTQszva8b8xh2_uhLw" class="footer_mail" onclick="reload_downlaod_counter();" target="_blank" rel="noopener noreferrer"><b>DEV Live</b></a>  |  <a href="release-notes/Pass Vault 21H2.html" class="footer_mail" target="_blank" rel="noopener noreferrer">Release Notes</a>  |  <a href="how-to-install.html" class="footer_mail" target="_blank" rel="noopener noreferrer">How to install ?</a></li>
 
             </ol>
 
