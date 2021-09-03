@@ -1,0 +1,37 @@
+Statistics for Pass Vault    Date: 03-09-2021 20:56
+
+Main URL: https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/  (Case sensitive)
+
+Number of URLs listed total: 13
+Number of URLs listed to be included: 13
+Number of URLs listed to be crawled: 13
+Number of URLs still waiting in the crawler: 0 (may include some already listed)
+Number of URLs aborted in the crawler: 0
+
+Top 20 oldest included URLs:
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/ (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/downloads.html (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/how-to-install.html (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/index.html (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/pvs-uac/login.html (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/release-notes/Pass Vault 21H2.html (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/release-notes/Pass%20Vault%2021H2.html (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet001.htm (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet002.htm (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet003.htm (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet004.htm (0 days)
+    https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/tabstrip.htm (0 days)
+
+Ban URLs with these texts in them from being crawled:
+
+
+Drop these parts of URLs being crawled:
+
+
+Remove these parameters when specified while being crawled:
+
+
+
+End of data.
+
