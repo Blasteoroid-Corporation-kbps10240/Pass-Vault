@@ -192,9 +192,21 @@
   padding: 50px;
   text-align: center;
 }
+.latest-info-content-class{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-size-adjust: 22px;
+
+}
+.latest-info-class{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-size-adjust: 35px;
+}
 .latest-info-blinking-text{
     animation:blinkingText 0.6s infinite;
-    font-size: 20px;
+    font-size: 16px;
 }
 @keyframes blinkingText{
     0%{     color: rgb(255, 0, 0);    }
@@ -306,12 +318,12 @@ function preload() {
     <section id="start"><header class="header"><h1 style="color: rgb(255, 255, 255);">Pass Vault from Blasteoroid Corporation</h1></header></section><br>
 
     <section id="tablink_buttons">
-        <br><br><br><br><br><br>
+        <br><br><br>
         
         <button class="tablink" onclick="location.href = 'downloads.html';">Downloads</button>
         <button class="tablink" onclick="location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScPJ53gNluj_lBd5ifwAMNMCekPWxfvZnP6-j1l_4W-uXpPZw/viewform?usp=sf_link';">Join Our Developement Team</button>
         <button class="tablink" onclick="location.href = 'secondary/infok/pass-vault-infok.html';">Projects & Other Info</button>
-        <button class="tablink" onclick="">Forgot Account Details</button>
+        <button class="tablink" onclick="location.href = 'pvs-uac/login.html';">Sign Up / Login</button>
 
     </section>
 
@@ -320,10 +332,18 @@ function preload() {
         <section id="get-passvault-now"><h2><button id="button2" class="button button2" type="submit" onclick="getpassnow()">Get Pass Vault Now</button></h2><h2><button id="button3" class="button button3" type="submit" onclick="openInNewTab('secondary/pass-vault-feedback-form-21.5.8-fr-ready/pass-vault-feedback-form.html')">Give Feedback Now</button></h2>
 
         </section><br><br><br><br>
-        <section id="latest-info">
-            <font face="Segoe UI" size="22px"><b>Latest Info</b></font>
-            <h1 class="latest-info-blinking-text">NEW</h1><h3> Pass Vault 21H2 Developer Preview version is out now.</h3>
+
+        <section>
+        <section class="latest-info-class" id="latest-info">
+            <b>Latest Info</b>
+            <h1 class="latest-info-blinking-text">NEW</h1>         
+        </section>
+        </section>
+        <section class="latest-info-contents-class">
+            <li>Pass Vault 21H2 Developer Preview version is out now.</li>
         </section><br><br><br>
+
+
         <section id="about-us"><p><h2>About Us</h2></p>
             <font face="Segoe UI" size="5px">The Science of Today is the Technology of Tomorrow!</font>
                 <p><a href="https://archi221aritra221.github.io/BlastexWeb/site_update_v2021.2.0.abcdenf4a1/about&contacts.html" class="footer_mail"><b>Blasteoroid Corporation</b></a> is owned by two students, more correctly two engineering aspirants. Blasteoroid has aimed to provide many projects open to public for the technical implementation of them in higher organisation. Blasteoroid has also aimed for public learning or student learning through their main website. Blasteoroid provides content that can be used by researchers to improve technology and also provides new aspects of learning and implementation. Open Source means not open to public but to help public to learn, use and create something new of their own and to get their ideas to improve a company's products for public use worldwide.
