@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Project Export: Pass Vault -->
+<!-- Exported by GSiteCrawler v1.23 rev. 286 -->
+<!-- 03-09-2021 / 20:55 on \\DESKTOP-E6HNN1M by Archisman-->
+<!-- Contains: complete project -->
+<GSiteCrawlerProject>
+  <TABLE Name="Projects">
+    <RECORD>
+      <ProjectName>S:Pass Vault</ProjectName>
+      <CaseSensitive>N:1.</CaseSensitive>
+      <ExtentionList>S:htm,html,asp,aspx,php,php5,cgi,pl,py,cfm</ExtentionList>
+      <MainUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/</MainUrl>
+      <Sitemap_DateInclude>N:1.</Sitemap_DateInclude>
+      <Sitemap_PriorityInclude>N:1.</Sitemap_PriorityInclude>
+      <Sitemap_FrequencyInclude>N:1.</Sitemap_FrequencyInclude>
+      <RemoveHtmlComments>N:0.</RemoveHtmlComments>
+      <ActionError404>N:0.</ActionError404>
+      <SimpleAutomation>N:1.</SimpleAutomation>
+      <CrawlPriority>N:100.</CrawlPriority>
+      <SimpleAutomationY>N:0.</SimpleAutomationY>
+    </RECORD>
+  </TABLE>
+
+  <TABLE Name="URLBan">
+  </TABLE>
+
+  <TABLE Name="ParamDrop">
+  </TABLE>
+
+  <TABLE Name="ParamRemove">
+  </TABLE>
+
+  <TABLE Name="URLS">
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:1.</Priority>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <Title>S:Pass Vault</Title>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/</FullUrl>
+      <UrlHash>N:1930894825.</UrlHash>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:12339.</PageSize>
+      <PageHash>N:666602438.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:23+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.278</TimeDownloadSecs>
+      <TimeParseSecs>N:0.003</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/downloads.html</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <Title>S:Get Pass Vault</Title>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/downloads.html</FullUrl>
+      <UrlHash>N:1821810210.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:12812.</PageSize>
+      <PageHash>N:750051021.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:25+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.595</TimeDownloadSecs>
+      <TimeParseSecs>N:0.003</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/how-to-install.html</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/downloads.html</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <Title>S:Pass Vault</Title>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/how-to-install.html</FullUrl>
+      <UrlHash>N:226955290.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/downloads.html</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:11233.</PageSize>
+      <PageHash>N:601437972.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:25+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.436</TimeDownloadSecs>
+      <TimeParseSecs>N:0.002</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/index.html</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/downloads.html</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <Title>S:Pass Vault</Title>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/index.html</FullUrl>
+      <UrlHash>N:1254987984.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/downloads.html</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:12339.</PageSize>
+      <PageHash>N:666602438.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:25+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.276</TimeDownloadSecs>
+      <TimeParseSecs>N:0.003</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/pvs-uac/login.html</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/pvs-uac/login.html</FullUrl>
+      <UrlHash>N:1494735577.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:5629.</PageSize>
+      <PageHash>N:1505184926.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:26+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.28</TimeDownloadSecs>
+      <TimeParseSecs>N:0.</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/release-notes/Pass Vault 21H2.html</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/downloads.html</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <Title>S:Pass Vault 21H2 Release Notes</Title>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/release-notes/Pass Vault 21H2.html</FullUrl>
+      <UrlHash>N:686183088.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/downloads.html</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:22103.</PageSize>
+      <PageHash>N:2103700854.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:27+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.28</TimeDownloadSecs>
+      <TimeParseSecs>N:0.006</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/release-notes/Pass%20Vault%2021H2.html</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/release-notes/Pass Vault 21H2.html</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <Title>S:Pass Vault 21H2 Release Notes</Title>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/release-notes/Pass%20Vault%2021H2.html</FullUrl>
+      <UrlHash>N:1714446752.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/release-notes/Pass Vault 21H2.html</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:22103.</PageSize>
+      <PageHash>N:2103700854.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:28+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.284</TimeDownloadSecs>
+      <TimeParseSecs>N:0.006</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <Title>S:Projects of Pass Vault</Title>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</FullUrl>
+      <UrlHash>N:1917808706.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:18383.</PageSize>
+      <PageHash>N:1034716870.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:30+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.288</TimeDownloadSecs>
+      <TimeParseSecs>N:0.006</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet001.htm</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet001.htm</FullUrl>
+      <UrlHash>N:365776416.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:21264.</PageSize>
+      <PageHash>N:1065977000.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:31+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.567</TimeDownloadSecs>
+      <TimeParseSecs>N:0.002</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet002.htm</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet002.htm</FullUrl>
+      <UrlHash>N:1382888656.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:31649.</PageSize>
+      <PageHash>N:966549417.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:30+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.281</TimeDownloadSecs>
+      <TimeParseSecs>N:0.005</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet003.htm</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet003.htm</FullUrl>
+      <UrlHash>N:1863130496.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:32773.</PageSize>
+      <PageHash>N:481002700.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:32+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.439</TimeDownloadSecs>
+      <TimeParseSecs>N:0.006</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet004.htm</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet004.htm</FullUrl>
+      <UrlHash>N:584203920.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:17725.</PageSize>
+      <PageHash>N:227448800.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:32+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.282</TimeDownloadSecs>
+      <TimeParseSecs>N:0.003</TimeParseSecs>
+    </RECORD>
+    <RECORD>
+      <Url>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/tabstrip.htm</Url>
+      <Include>N:1.</Include>
+      <Crawl>N:1.</Crawl>
+      <CurrentDate>D:2021-09-03T11:04:42+00:00</CurrentDate>
+      <Priority>N:0.5</Priority>
+      <SourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</SourceUrl>
+      <Manual>N:1.</Manual>
+      <Frequency>N:1.</Frequency>
+      <FullUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/tabstrip.htm</FullUrl>
+      <UrlHash>N:1164380926.</UrlHash>
+      <FullSourceUrl>S:https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok.html</FullSourceUrl>
+      <DateLastChange>D:2021-09-03T11:04:42+00:00</DateLastChange>
+      <PageSize>N:8547.</PageSize>
+      <PageHash>N:1491269940.</PageHash>
+      <DateLastCrawl>D:2021-09-03T20:52:33+00:00</DateLastCrawl>
+      <TimeDownloadSecs>N:0.285</TimeDownloadSecs>
+      <TimeParseSecs>N:0.002</TimeParseSecs>
+    </RECORD>
+  </TABLE>
+
+</GSiteCrawlerProject>
+<!-- End of file -->
