@@ -9,7 +9,7 @@ User-agent: *
 
 Allow: /
 
-Disallow:
+
 
 # end of file
 
