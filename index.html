@@ -30,7 +30,6 @@
         /*top: 50px;;*/
         margin:0;
         padding:0;
-        
         height:100%;
         top: 120px;
         /*padding:10px;*/
@@ -55,6 +54,17 @@
 
     }
 
+    .header_sub1{
+        text-decoration-color: rgb(255, 255, 255);
+        text-align: right;
+        text-size-adjust: 18px;
+        font-size: 18px;
+        /*right: 30px;*/
+        padding-right: 50px;
+        padding-top: 0%;
+        position: relative;
+    }
+
     .heading1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 38px;
@@ -68,7 +78,7 @@
 
     footer{
 
-        position:fixed;
+        position:relative;
         /*position: absolute;*/
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
@@ -120,6 +130,45 @@
         transition-duration: 0.5s;
     }
 
+
+    .intro{
+        position: relative;
+        text-align: center;
+        text-rendering: auto;
+        font-size: 48px;
+        text-decoration: solid;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .intro-sub1-imgx1{
+        position: relative;
+        opacity: 90%;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        text-align: center;
+        object-fit: cover;
+        scroll-behavior: smooth;
+
+        
+    }
+
+    .intro-sub1-imgx1-txt1{
+        position: relative;
+        text-decoration: rgb(185, 105, 0);
+        font-size: 60px;
+        opacity: 100%;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .parallax-window {
+	min-height: 900px;
+	background: transparent;
+    opacity: 85%;
+}
+
     .button {
   border: none;
   color: rgb(255, 255, 255);
@@ -156,6 +205,18 @@
     position: absolute;
 
 }
+
+.button4{
+    background-color: rgb(27, 95, 168);
+    font-size: 22px;
+    border-radius: 1000px;
+    left: 150px;
+    /*top: 250px;*/
+    /*padding-top: 500px;*/
+    position: relative;
+
+}
+
 .button3{
     background-color: rgb(27, 95, 168);
     font-size: 22px;
@@ -295,6 +356,12 @@ function preload() {
 <script src="assets/js/tether.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
 
+<script src="assets/js/parallax.min.js"></script>
+<script src="assets/js/parallax.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
 <script src="assets/js/howler-plays.js"></script>
 <script>
     function cb(response) {
@@ -302,6 +369,7 @@ function preload() {
 }
 </script>
 <script async src="https://api.countapi.xyz/hit/blasteoroid-corporation.github.io/Pass-Vault/visits?callback=cb"></script>
+
 <script>
     /*soundManager.onready(function() {
     soundManager.createSound({
@@ -322,7 +390,7 @@ function preload() {
         <source src="assets/audio/MenuMusic01.mp3" type="audio/mp3">
 
     </audio>
-    <section id="start"><header class="header"><h1 style="color: rgb(255, 255, 255);">Pass Vault from Blasteoroid Corporation</h1></header></section><br>
+    <section id="start"><header class="header"><h1 style="color: rgb(255, 255, 255);">Pass Vault</h1></header></section><br>
 
     <section id="tablink_buttons">
         <br><br><br>
@@ -334,16 +402,24 @@ function preload() {
 
     </section>
 
-    <div class="aio"><div class="container">
-    
-        <section id="get-passvault-now"><h2><button id="button2" class="button button2" type="submit" onclick="getpassnow()">Get Pass Vault Now</button></h2><h2><button id="button3" class="button button3" type="submit" onclick="openInNewTab('secondary/pass-vault-feedback-form-21.5.8-fr-ready/pass-vault-feedback-form.html')">Give Feedback Now</button></h2>
+    <br><br><br><br><br><br><br>
+
+    <section><button class="button button4" id="button4" onclick="location.href='#get-passvault-now'">Get Pass Vault</button></section><br>
+
+    <section class="intro" id="intro-pub1" style="color: rgb(214, 91, 10);"><b>Introducing to you,</b></section>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/imgx/pass-2.jpg" data-bleed="0" data-pos-y="1000px" data-speed="0.5" data-natural-width="1920" data-natural-height="1080" style="height: 493px;"></div><p class="intro-sub1-imgx1-txt1" style="color: rgb(214, 91, 10); text-align: center;" align="center"><b>Pass Vault From Blasteoroid Corporation</b></p>
+
+    <div class="aio">
+	
+        <div class="container">
+	    <section id="get-passvault-now"><h2><button id="button2" class="button button2" type="submit" onclick="getpassnow()">Get Pass Vault Now</button></h2><h2><button id="button3" class="button button3" type="submit" onclick="openInNewTab('secondary/pass-vault-feedback-form-21.5.8-fr-ready/pass-vault-feedback-form.html')">Give Feedback Now</button></h2>
 
         </section><br><br><br><br>
 
         <section>
         <section class="latest-info-class" id="latest-info">
             <b>Latest Info</b>
-            <h1 class="latest-info-blinking-text">NEW</h1>         
+            <h2 class="latest-info-blinking-text">NEW</h2>
         </section>
         </section>
         <section class="latest-info-contents-class">
