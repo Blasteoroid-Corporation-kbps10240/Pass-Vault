@@ -6,6 +6,9 @@ Sitemap: https://https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/
 
 User-agent: *
 # No exclusions found, disallow nothing.
+
+Allow: /
+
 Disallow:
 
 # end of file
