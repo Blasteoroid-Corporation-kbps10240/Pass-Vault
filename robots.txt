@@ -9,7 +9,8 @@ User-agent: *
 
 Allow: /
 
-
+Sitemap: https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/sitemap.xml
+Sitemap: https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/sitemap.txt
 
 # end of file
 
