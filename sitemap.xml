@@ -71,7 +71,12 @@
   <changefreq>daily</changefreq>
   <priority>0.10</priority>
 </url>
-
+<url>
+  <loc>https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/how-to-install.html</loc>
+  <lastmod>2021-09-04T13:33:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.10</priority>
+</url>
 <url>
   <loc>https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/secondary/infok/pass-vault-infok_files/sheet001.htm</loc>
   <lastmod>2021-09-04T13:33:49+00:00</lastmod>
