@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="5c1-_2jl4iuW9K-JFP65qOi6QTXYMGx9XV6j8VNoYEg" />
+    <meta name="msvalidate.01" content="B3F62FE6BE3D0171FF1DA463FB369E2A" />
+
+    <meta name="description" content="Pass Vault is a password management system/application for Windows, Linux & Mac which is under developed by Blasteoroid Corporation. Pass Vault offers best and ultimate security to each and every credentials of the user. It uses AES256, AES1024, DPAPI, SHA256 methods and algorithms. It is a open source project. Blasteoroid Corporation is owned by two engineering aspirants.">
+    <meta name="keywords" content="Pass Vault, Password Manager, Pass-Vault, Pass Vault from Blasteoroid Corporation, Blasteoroid Corporation, blasteoroid corporation, blasteoroid, Blasteoroid, PassVault, passvault, how to install pass vault, how to install passvault">
+    <meta name="author" content="Blasteoroid Corporation">
+
+    <link rel="shortcut icon" href="https://community.bitwarden.com/uploads/default/original/2X/9/91b8778936e5197e8f351a4ebfcf8eaf0c095581.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://www.apkmirror.com/wp-content/uploads/2021/03/86/604d3d46a2a0b.png" type="image/x-icon">
+    <title>Installation Guide for Pass Vault</title>
+</head>
+
+<style>
+    html {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        scroll-snap-type: mandatory;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .aio{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /*position: relative;*/
+        /*top: 50px;;*/
+        margin:0;
+        padding:0;
+        
+        height:100%;
+        top: 120px;
+        /*padding:10px;*/
+        padding-bottom:60px;
+        position: relative;
+    }
+    .header{
+        position:absolute;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        left: 0;
+        top: 0;
+        width: 100%;
+        text-size-adjust: 16px;
+        font-size: 28px;
+        padding: 3px;
+        /*background-color: rgb(255, 255, 255);*/
+        /*background-color: rgb(51, 51, 51);*/
+        background-color: rgb(27, 95, 168);
+        color: rgb(97,97,97);
+
+    }
+
+    .heading1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 38px;
+        text-emphasis:inherit;
+        
+        text-align: justify;
+        color: rgb(27, 95, 168);
+    }
+
+    html{background-color: rgb(255, 255, 255);}
+
+    footer{
+
+        position:fixed;
+        /*position: absolute;*/
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        left: 0px;
+        bottom:0px;
+        width:100%;
+        size: auto;
+        height:auto;
+        text-size-adjust: 18px;
+        /*overflow: hidden;*/
+        font-size: 13px;
+        padding-top: 2px;
+        background-color: rgb(242, 242, 242,0.9);
+        /*background-color: rgb(51, 51, 51);*/
+        /*background-color: rgb(27, 95, 168);*/
+        color: rgb(97,97,97);
+    }
+    .flex-container{
+        display: flex;
+    }
+    .item:hover{
+        /*background-color: rgb(165, 165, 165);*/
+        cursor: pointer;
+        color: rgb(174, 0, 255);
+    }
+
+    .container{
+        margin: 5px;
+   padding-left: 80px;
+   padding-right: 80px;
+   font-size: 16px;
+   text-align: justify;
+   background: rgba(255, 255, 255, 0.7); /* white background with 50% opacity */
+   padding-bottom: 100px;
+    }
+
+    .footer_mail{
+    color: rgb(30,102,182);
+    text-decoration:none;
+    text-decoration-color: transparent;
+    }
+
+    .footer_mail:hover{
+        cursor: pointer;
+        text-decoration: rgb(11, 52, 107);
+        color: rgb(11, 52, 107);
+        text-decoration:underline;
+        /*text-decoration-color: transparent;*/
+        transition-duration: 0.5s;
+    }
+
+    .button {
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  display:inline-block;
+  /*font-size: 16px;*/
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(11, 52, 107);
+}
+
+.button1{
+    background-color: rgb(27, 95, 168);
+    font-size: 22px;
+    border-radius: 200px;
+    right: 10px;
+    position: fixed;
+
+}
+
+.button2{
+    background-color: rgb(27, 95, 168);
+    font-size: 22px;
+    border-radius: 5px;
+    left: 80px;
+    /*top: 250px;*/
+    /*padding-top: 500px;*/
+    position: absolute;
+
+}
+.button3{
+    background-color: rgb(27, 95, 168);
+    font-size: 22px;
+    border-radius: 5px;
+    left: 350px;
+    position: absolute;
+}
+.footer_copyright_tag{
+    color: rgb(27, 95, 168);;
+    font-size: 12px;
+    /*border-radius: 200px;*/
+    /*right: 10px;*/
+    /*position: fixed;*/
+    text-align: center;
+
+}
+
+/* Style the tab buttons */
+.tablink {
+  background-color: rgb(51,51,51);
+  color: rgb(255, 255, 255);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  position: relative;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: rgb(105, 105, 105);
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: rgb(255, 255, 255);
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+.latest-info-blinking-text{
+    animation:blinkingText 0.6s infinite;
+    font-size: 20px;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(255, 0, 0);    }
+    49%{    color: rgb(161, 49, 49); }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+.visit-counter{
+    background-color: azure;
+    position: absolute;
+    left: 40px;  
+    bottom: 18px;  
+    /*border-style:solid;
+    border-radius: 6px;
+    border-color: orange;*/
+    text-decoration: #000;
+    text-align:center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:midnightblue
+    /*bottom:10px;*/
+}
+.visitcounter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: firebrick;
+
+    /*Used HITS*/
+    /*URL: https://github.com/mlomb/countapi-js*/
+}
+</style>
+
+<script>
+//Get the button:
+mybutton = document.getElementById("button1");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+}
+function getpassnow() {
+    location.href = 'downloads.html';
+}
+function openInNewTab(url) {
+ window.open(url, '_blank').focus();
+}
+</script>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/aio-sp.js"></script>
+<script src="assets/js/smooth-scroll.js"></script>
+<script src="assets/js/touch-swipe.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/tether.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+<script src="assets/js/visit-count-api.js"></script>
+
+<script>
+    function cb(response) {
+    document.getElementById('visit-countjs').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/blasteoroid-corporation.github.io/Pass-Vault/visits?callback=cb"></script>
+
+
+<body>
+    <audio autoplay loop canplay controls>
+        <source src="assets/audio/MenuMusic01.mp3" type="audio/mp3">
+
+    </audio>
+    <section id="start"><header class="header"><h1 style="color: rgb(255, 255, 255);">Pass Vault Installation Guide</h1></header></section><br>
+
+    <section id="tablink_buttons">
+        <br><br><br><br><br><br>
+        <button class="tablink" onclick="location.href = 'index.html';">Home</button>
+        <button class="tablink" onclick="location.href = 'downloads.html';">Downloads</button>
+        <button class="tablink" onclick="location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScPJ53gNluj_lBd5ifwAMNMCekPWxfvZnP6-j1l_4W-uXpPZw/viewform?usp=sf_link';">Join Our Developement Team</button>
+        <button class="tablink" onclick="location.href = 'pvs-uac/login.html';">Sign Up / Login</button>
+
+    </section>
+
+    <div class="aio"><div class="container">
+    
+        
+
+        </section><br><br><br><br>
+        <section id="latest-info">
+            <font face="Segoe UI" size="22px"><b>Latest Info</b></font>
+            <h1 class="latest-info-blinking-text">NEW</h1><h3> Pass Vault 21H2 Developer Preview version is out now.</h3>
+        </section><br><br><br>
+
+        <section id="hti">
+            <img src="assets\imgx\1.png">
+            <img src="assets\imgx\2png">
+            <img src="assets\imgx\3.png">
+            <img src="assets\imgx\4.png">
+            <img src="assets\imgx\5.png">
+        </section>
+<br><br><br><br>
+        <section id="about-us"><p><h2>About Us</h2></p>
+            <font face="Segoe UI" size="5px">The Science of Today is the Technology of Tomorrow!</font>
+                <p><a href="https://archi221aritra221.github.io/BlastexWeb/site_update_v2021.2.0.abcdenf4a1/about&contacts.html" class="footer_mail"><b>Blasteoroid Corporation</b></a> is owned by two students, more correctly two engineering aspirants. Blasteoroid has aimed to provide many projects open to public for the technical implementation of them in higher organisation. Blasteoroid has also aimed for public learning or student learning through their main website. Blasteoroid provides content that can be used by researchers to improve technology and also provides new aspects of learning and implementation. Open Source means not open to public but to help public to learn, use and create something new of their own and to get their ideas to improve a company's products for public use worldwide.
+                    </p>
+        </section>
+
+
+
+
+
+    </div></div>
+
+
+    <footer>
+
+        <p><b>Email: </b><b><a href="mailto:kbps.10240@gmail.com" class="footer_mail">kbps.10240@gmail.com</a></b></p>
+        
+        <button id="button1" class="button button1" type="submit" onclick="topFunction()"><b>↑</b></button>
+
+            <p>Operational Hours: 08:00 AM to 05:00 PM IST (GMT+05:30)
+        
+                Toll-free number (Valid for guest calling from within India)
+                
+                +1 111-111-1111 ; +1 111-111-1111
+        
+                </p>
+                <p>Direct number (Valid for guest calling from outside India)
+                
+                    NA; +1 111-111-1111
+        
+                    </p>
+                    <p class="visit-counter"><a class="visitcounter"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fblasteoroid-corporation-kbps10240.github.io%2FPass-Vault&count_bg=%234CA409&title_bg=%232D2D2D&icon=adguard.svg&icon_color=%23E7E7E7&title=Total+Visitors%3A&edge_flat=false"/> </a></p>
+                    <p  class="footer_copyright_tag">© Copyright 2021 <b><a href="https://archi221aritra221.github.io/BlastexWeb/site_update_v2021.2.0.abcdenf4a1/about&contacts.html" class="footer_mail">Blasteoroid Corporation.</a></b> All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
