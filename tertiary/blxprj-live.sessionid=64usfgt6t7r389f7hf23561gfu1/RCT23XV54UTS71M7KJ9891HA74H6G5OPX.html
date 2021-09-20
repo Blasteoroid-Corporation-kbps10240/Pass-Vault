@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://www.google-analytics.com/analytics.js"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="description" content="Blasteoroid Corporation is a company targetting technological growth all over the world. Blasteoroid is owned by two engineering students.">
+    <meta name="keywords" content="Blasteoroid Corporation, blasteoroid corporation, blasteoroid, Blasteoroid, blastex, Blastex">
+    <meta name="author" content="Blasteoroid Corporation">
+
+    <link rel="shortcut icon" href="https://community.bitwarden.com/uploads/default/original/2X/9/91b8778936e5197e8f351a4ebfcf8eaf0c095581.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://www.apkmirror.com/wp-content/uploads/2021/03/86/604d3d46a2a0b.png" type="image/x-icon">
+    <title>Blasteoroid Corporation</title>
+	
+    <meta property="og:title" content="Blasteoroid Corporation">
+    <meta property="og:url" content="https://blasteoroid-corporation-kbps10240.github.io/Pass-Vault/">
+    <meta property="og:description" content="Blasteoroid Corporation is a company targetting technological growth all over the world. Blasteoroid is owned by two engineering students.">
+</head>
+
+<style>
+    html {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        scroll-snap-type: mandatory;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .aio{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /*position: relative;*/
+        /*top: 50px;;*/
+        margin:0;
+        padding:0;
+        height:100%;
+        top: 120px;
+        /*padding:10px;*/
+        padding-bottom:60px;
+        position:relative;
+    }
+    .header{
+        position:absolute;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        left: 0;
+        top: 0;
+        width: 100%;
+        text-size-adjust: 16px;
+        font-size: 28px;
+        padding: 3px;
+        /*background-color: rgb(255, 255, 255);*/
+        /*background-color: rgb(51, 51, 51);*/
+        background-color: rgb(27, 95, 168);
+        /*background-color: rgb(15, 17, 26);*/
+        color: rgb(97,97,97);
+
+    }
+
+    .header_sub1{
+        text-decoration-color: rgb(255, 255, 255);
+        text-align: right;
+        text-size-adjust: 18px;
+        font-size: 18px;
+        /*right: 30px;*/
+        padding-right: 50px;
+        padding-top: 0%;
+        position: relative;
+    }
+
+    .heading1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 38px;
+        text-emphasis:inherit;
+        
+        text-align: justify;
+        color: rgb(27, 95, 168);
+    }
+
+    html{background-color: rgb(255, 255, 255);}
+
+    footer{
+
+        position:relative;
+        /*position: absolute;*/
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        left: 0px;
+        bottom:0px;
+        width:100%;
+        size: auto;
+        height:auto;
+        text-size-adjust: 18px;
+        /*overflow: hidden;*/
+        font-size: 13px;
+        padding-top: 2px;
+        background-color: rgb(242, 242, 242,0.9);
+        /*background-color: rgb(51, 51, 51);*/
+        /*background-color: rgb(27, 95, 168);*/
+        color: rgb(97,97,97);
+    }
+    .flex-container{
+        display: flex;
+    }
+    .item:hover{
+        /*background-color: rgb(165, 165, 165);*/
+        cursor: pointer;
+        color: rgb(174, 0, 255);
+    }
+
+    .container{
+        margin: 5px;
+   padding-left: 80px;
+   padding-right: 80px;
+   font-size: 16px;
+   text-align: justify;
+   background: rgba(255, 255, 255, 0.7); /* white background with 50% opacity */
+   padding-bottom: 100px;
+    }
+
+    .footer_mail{
+    color: rgb(30,102,182);
+    text-decoration:none;
+    text-decoration-color: transparent;
+    }
+
+    .footer_mail:hover{
+        cursor: pointer;
+        text-decoration: rgb(11, 52, 107);
+        color: rgb(11, 52, 107);
+        text-decoration:underline;
+        /*text-decoration-color: transparent;*/
+        transition-duration: 0.5s;
+    }
+
+
+    .intro{
+        position: relative;
+        text-align: center;
+        text-rendering: auto;
+        font-size: 48px;
+        text-decoration: solid;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .intro-sub1-imgx1{
+        position: relative;
+        opacity: 90%;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        text-align: center;
+        object-fit: cover;
+        scroll-behavior: smooth;
+
+        
+    }
+
+    .intro-sub1-imgx1-txt1{
+        position: relative;
+        text-decoration: rgb(185, 105, 0);
+        font-size: 60px;
+        opacity: 100%;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .parallax-window {
+	min-height: 900px;
+	background: transparent;
+    opacity: 85%;
+}
+
+    .button {
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  display:inline-block;
+  /*font-size: 16px;*/
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(11, 52, 107);
+}
+
+.button1{
+    background-color: rgb(27, 95, 168);
+    font-size: 22px;
+    border-radius: 200px;
+    right: 10px;
+    position: fixed;
+
+}
+
+.button2{
+    background-color: rgb(27, 95, 168);
+    font-size: 22px;
+    border-radius: 5px;
+    left: 80px;
+    /*top: 250px;*/
+    /*padding-top: 500px;*/
+    position: absolute;
+
+}
+
+.button4{
+    background-color: rgb(27, 95, 168);
+    font-size: 22px;
+    border-radius: 1000px;
+    left: 150px;
+    /*top: 250px;*/
+    /*padding-top: 500px;*/
+    position: relative;
+
+}
+
+.button3{
+    background-color: rgb(27, 95, 168);
+    font-size: 22px;
+    border-radius: 5px;
+    left: 350px;
+    position: absolute;
+}
+.footer_copyright_tag{
+    color: rgb(27, 95, 168);;
+    font-size: 12px;
+    /*border-radius: 200px;*/
+    /*right: 10px;*/
+    /*position: fixed;*/
+    text-align: center;
+
+}
+
+/* Style the tab buttons */
+.tablink {
+  background-color: rgb(51,51,51);
+  color: rgb(255, 255, 255);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  position: relative;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: rgb(105, 105, 105);
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: rgb(255, 255, 255);
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+.latest-info-content-class{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-size-adjust: 22px;
+
+}
+.latest-info-class{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-size-adjust: 35px;
+}
+.latest-info-blinking-text{
+    animation:blinkingText 0.6s infinite;
+    font-size: 16px;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(255, 0, 0);    }
+    49%{    color: rgb(161, 49, 49); }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+.visit-counter{
+    background-color: azure;
+    position: absolute;
+    left: 40px;  
+    bottom: 18px;  
+    /*border-style:solid;
+    border-radius: 6px;
+    border-color: orange;*/
+    text-decoration: #000;
+    text-align:center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:midnightblue
+    /*bottom:10px;*/
+}
+.visitcounter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: firebrick;
+
+    /*Used HITS*/
+    /*URL: https://github.com/mlomb/countapi-js*/
+}
+.main1{
+text-align:justify;
+    font-size: 20.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left:120px;
+margin-right:120px;
+}
+.tpl76{
+align:center;
+text-align:center;
+}
+</style>
+
+<script>
+//Get the button:
+mybutton = document.getElementById("button1");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+}
+function getpassnow() {
+    location.href = 'downloads.html';
+}
+
+function openInNewTab(url) {
+ window.open(url, '_blank').focus();
+}
+
+function preload() {
+    document.querySelector('header').addEventListener('click', function() {
+    context.resume().then(() => {
+      console.log('Playback resumed successfully');
+    });
+  });
+}
+
+</script>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/aio-sp.js"></script>
+<script src="assets/js/smooth-scroll.js"></script>
+<script src="assets/js/touch-swipe.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/tether.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+
+<script src="assets/js/parallax.min.js"></script>
+<script src="assets/js/parallax.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+<script src="assets/js/howler-plays.js"></script>
+<script>
+    function cb(response) {
+    document.getElementById('visit-countjs').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/blasteoroid-corporation.github.io/Pass-Vault/visits?callback=cb"></script>
+
+<script>
+    /*soundManager.onready(function() {
+    soundManager.createSound({
+            id: 'mySound',
+            url: '../assets/audio/MenuMusic01.mp3'
+        });
+        <script src="assets/js/soundmanager2.js">
+        // ...and play it
+        soundManager.play('mySound');
+});*/
+
+</script>
+
+
+
+<body>
+    <section id="start"><header class="header"><h1 style="color: rgb(255, 255, 255);">Blasteoroid Corporation</h1></header></section><br>
+
+
+    <br><br><br>
+
+    
+				
+    <div class="aio">	     
+<section class="tpl76"><p align="center"><h2>!!!PLEASE KEEP VISITING THE WEBSITE FOR LATEST UPDATES!!!</h2></p>
+<p align="center"><h1>Project ID: RCT23XV54UTS71M7KJ9891HA74H6G5OPX </h1></p></section>
+	<div class="container">
+
+<button class="button button4" id="button4" onclick="location.href='#formfeed1';"><b>JOIN NOW</b></button><br><br>
+	<section class="main1" id="main"><b>Project ID:</b> RCT23XV54UTS71M7KJ9891HA74H6G5OPX<br><br><b>Project Objective:</b> Developing Cloud Console API for cloud data management. The main motto is to provide computational serives like data management, counters, analytics integration, live tracking, ad-sense and many more from a cloud based platform using Microsoft Azure, Amazon AWS, Google Cloud, Oracle Cloud.<br><br><b>ETA target:</b> 21 days.<br><br><b>Maximum teams:</b> 16.<br><br><b>Mode of working:</b> Offline + Online.<br><br><b>Minimum Educational Qualifications:</b> 10+2 or equivalent in basic science (Physics & Mathematics mandatory), knowledge of programming and languages like C, C++, C#, JavaScript, Python, PHP and more.<br><br>The interested developers are to contact as per the information provided and fill up the form.<br><br><b>Commencement Date:</b> 05.01.2022<br><br><b>Project Leader:</b> To be decided after member allotment(BTech+MTech+MBA).<br><br><b>Project Marketing Manager:</b> To be decided after member allotment(MBA).<br><br><b>Team Leaders:</b> Same as above(BTech+MBA).<br><br><b>Senior Developer:</b> Same as above(BTech).<br><br><b>MD:</b> Same as above (BTech+MBA).<br><br><b>Regular Programmer/Developer:</b> 10+2 or equivalent in Physics, Mathematics & Computer Science(minimum) or higher.<br><br><b>Algo Designer:</b> 10+2 or equivalent in Physics, Mathematics & Computer Science(minimum) or higher.<br><br><b>Graphics Designer:</b> 10+2 or equivalent in Physics, Mathematics & Computer Science & graphics design(minimum) or higher.<br><br><b>PO:</b> CEO A B & CEO A K.</section>
+	<br><br><br><br><br><br>
+
+        <section>
+	<button class="button button4" id="button4" onclick="location.href='#formfeed1';"><b>JOIN NOW</b></button>
+        <section class="latest-info-class" id="latest-info">
+            <b>Latest Info</b>
+            <h2 class="latest-info-blinking-text">NEW</h2>
+        </section>
+        </section>
+        <section class="latest-info-contents-class">
+            <li>Recruitment Started, closing date is 16.12.2021.</li>
+        </section><br>
+
+	    <p class="feddback-form" id="formfeed1" align="center"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgwqdiABjVwmUJOBtlhDmUZ69Gzg05LMHdy5qN_w8tcVSx8Q/viewform?embedded=true" width="1280" height="3000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+
+        
+
+<br><br><br>
+
+
+        <section id="about-us"><p><h2>About Us</h2></p>
+            <font face="Segoe UI" size="5px">The Science of Today is the Technology of Tomorrow!</font>
+                <p><a href="https://archi221aritra221.github.io/BlastexWeb/site_update_v2021.2.0.abcdenf4a1/about&contacts.html" class="footer_mail"><b>Blasteoroid Corporation</b></a> is owned by two students, more correctly two engineering aspirants. Blasteoroid has aimed to provide many projects open to public for the technical implementation of them in higher organisation. Blasteoroid has also aimed for public learning or student learning through their main website. Blasteoroid provides content that can be used by researchers to improve technology and also provides new aspects of learning and implementation. Open Source means not open to public but to help public to learn, use and create something new of their own and to get their ideas to improve a company's products for public use worldwide.
+                    </p>
+        </section>
+
+
+
+
+
+    </div></div>
+
+
+    <footer>
+
+        <p><b>Email: </b><b><a href="mailto:kbps.10240@gmail.com" class="footer_mail">kbps.10240@gmail.com</a></b></p>
+        
+        <button id="button1" class="button button1" type="submit" onclick="topFunction()"><b>↑</b></button>
+
+            <p>Operational Hours: 08:00 AM to 05:00 PM IST (GMT+05:30)
+        
+                Toll-free number (Valid for guest calling from within India)
+                
+                +1 111-111-1111 ; +1 111-111-1111
+        
+                </p>
+                <p>Direct number (Valid for guest calling from outside India)
+                
+                    NA; +1 111-111-1111
+        
+                    </p>
+                    <p class="visit-counter"><a class="visitcounter"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fblasteoroid-corporation-kbps10240.github.io%2FPass-Vault&count_bg=%234CA409&title_bg=%232D2D2D&icon=adguard.svg&icon_color=%23E7E7E7&title=Total+Visitors%3A&edge_flat=false"/> </a></p>
+                    <p  class="footer_copyright_tag">© Copyright 2021 <b><a href="https://archi221aritra221.github.io/BlastexWeb/site_update_v2021.2.0.abcdenf4a1/about&contacts.html" class="footer_mail">Blasteoroid Corporation.</a></b> All Rights Reserved.</p>
+    </footer>
+</body>
+
+
+</html>
